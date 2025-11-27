@@ -17,3 +17,9 @@ jobs:
 
       - name: Run script
         run: python app.py
+        
+      - name: Install pytest
+        run: pip install pytest
+
+      - name: Run tests
+        run: pytest
